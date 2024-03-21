@@ -309,10 +309,26 @@ max-height: 100%;
     padding: 10px 34px;
   }
   section {
-    padding: 50px 34px;
+    padding: 20px 34px;
   }
   .skills-img {
     width: 320px;
+  }
+    .container {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .design-thumbs {
+    height: 100px;
+  }
+  .design-challenges {
+    height: 150px;
+  }
+  .design-logos {
+    height: 200px;
+  }
+  .design-posters {
+    height: 300px;
   }
 }
 
