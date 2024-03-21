@@ -226,7 +226,7 @@ max-height: 100%;
     padding: 13px 65px;
   }
   section {
-    padding: 50px 65px;
+    padding: 50px 30px;
   }
   .about {
     flex-direction: column;
@@ -309,7 +309,7 @@ max-height: 100%;
     padding: 10px 34px;
   }
   section {
-    padding: 20px 34px;
+    padding: 20px 15px;
   }
   .skills-img {
     width: 320px;
