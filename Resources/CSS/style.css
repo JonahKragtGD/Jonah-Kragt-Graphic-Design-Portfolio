@@ -48,7 +48,7 @@ html {
   color: #fff;
 }
 section {
-  padding: 50px 100px;
+  padding: 50px 50px;
 }
 header {
   position: fixed;
@@ -60,7 +60,7 @@ header {
   align-items: center;
   justify-content: space-between;
   background: var(--bg-color);
-  padding: 18px 100px;
+  padding: 18px 50px;
   box-shadow: 0 0.5rem 50rem rgba(0, 0, 0, 0.1);
 }
 .logo {
