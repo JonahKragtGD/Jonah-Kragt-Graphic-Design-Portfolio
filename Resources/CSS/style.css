@@ -304,7 +304,8 @@ max-height: 100%;
   }
   .container {
     flex: 100%;
-    object-fit: contain;
+    max-width: 100%;
+    min-width: fit-content;
   }
   .design-thumbs {
     height: 100px;
@@ -320,7 +321,7 @@ max-height: 100%;
   }
   .design-social {
     height: 100px;
-  }  
+  }
 }
 
 
@@ -334,25 +335,6 @@ max-height: 100%;
   .skills-img {
     width: 320px;
   }
-  .container {
-    padding: 10px 20px;
-    object-fit: contain;
-  }
-  .logos {
-    padding: 10px 20px;
-  }
-  .challenges {
-    padding: 10px 20px;
-  }
-  .posters {
-    padding: 10px 20px;
-  }
-  .thumbs {
-    padding: 10px 20px;
-  }
-  .social-graphics {
-    padding: 10px 20px;
-  }  
 }
 
 
@@ -386,4 +368,6 @@ max-height: 100%;
     padding: 10px 20px;
   }  
 }
+  
+
   
