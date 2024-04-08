@@ -177,7 +177,7 @@ height: 250px;
   text-align: center;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  width: auto;
+  width: 100%;
 }
 .design-social {
 height: 300px;
