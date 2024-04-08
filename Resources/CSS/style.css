@@ -304,8 +304,7 @@ max-height: 100%;
   }
   .container {
     flex: 100%;
-    max-width: 100%;
-    min-width: fit-content;
+    object-fit: contain;
   }
   .design-thumbs {
     height: 100px;
@@ -335,6 +334,25 @@ max-height: 100%;
   .skills-img {
     width: 320px;
   }
+  .container {
+    padding: 10px 20px;
+    object-fit: contain;
+  }
+  .logos {
+    padding: 10px 20px;
+  }
+  .challenges {
+    padding: 10px 20px;
+  }
+  .posters {
+    padding: 10px 20px;
+  }
+  .thumbs {
+    padding: 10px 20px;
+  }
+  .social-graphics {
+    padding: 10px 20px;
+  }  
 }
 
 
