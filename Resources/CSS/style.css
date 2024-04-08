@@ -171,6 +171,19 @@ max-height: 100%;
 height: 250px;
 
 }
+.project-social {
+  background-color: #2c3e50;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: auto;
+}
+.design-social {
+height: 300px;
+max-width: 100%;
+max-height: 100%;
+}
 .heading {
   display: flex;
   justify-content: center;
