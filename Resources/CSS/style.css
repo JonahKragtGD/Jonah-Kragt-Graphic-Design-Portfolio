@@ -263,6 +263,21 @@ max-height: 100%;
     max-width: 50%;
     padding: 10px 20px;
   }
+  .logos {
+    padding: 10px 20px;
+  }
+  .challenges {
+    padding: 10px 20px;
+  }
+  .posters {
+    padding: 10px 20px;
+  }
+  .thumbs {
+    padding: 10px 20px;
+  }
+  .social-graphics {
+    padding: 10px 20px;
+  }  
 }
 
 
