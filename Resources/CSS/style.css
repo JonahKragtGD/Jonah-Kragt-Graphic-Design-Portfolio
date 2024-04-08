@@ -344,5 +344,24 @@ max-height: 100%;
   .about-text {
     margin-top: 1rem;
   }
+  .container {
+    padding: 10px 20px;
+    object-fit: contain;
+  }
+  .logos {
+    padding: 10px 20px;
+  }
+  .challenges {
+    padding: 10px 20px;
+  }
+  .posters {
+    padding: 10px 20px;
+  }
+  .thumbs {
+    padding: 10px 20px;
+  }
+  .social-graphics {
+    padding: 10px 20px;
+  }  
 
 }
