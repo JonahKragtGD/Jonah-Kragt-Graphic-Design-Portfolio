@@ -40,7 +40,7 @@ body::-webkit-scrollbar-thumb {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  align-content: center;
+  align-content: space-evenly;
 }
 
 html {
@@ -48,7 +48,7 @@ html {
   color: #fff;
 }
 section {
-  padding: 50px 50px;
+  padding: 50px 100px;
 }
 header {
   position: fixed;
@@ -60,7 +60,7 @@ header {
   align-items: center;
   justify-content: space-between;
   background: var(--bg-color);
-  padding: 18px 50px;
+  padding: 18px 100px;
   box-shadow: 0 0.5rem 50rem rgba(0, 0, 0, 0.1);
 }
 .logo {
@@ -170,19 +170,6 @@ max-height: 100%;
 .design-thumbs {
 height: 250px;
 
-}
-.project-social {
-  background-color: #2c3e50;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  width: auto;
-}
-.design-social {
-height: 300px;
-max-width: 100%;
-max-height: 100%;
 }
 .heading {
   display: flex;
@@ -305,6 +292,7 @@ max-height: 100%;
   .container {
     flex: 100%;
     max-width: 100%;
+    min-width: fit-content;
   }
   .design-thumbs {
     height: 100px;
@@ -363,5 +351,6 @@ max-height: 100%;
   .social-graphics {
     padding: 10px 20px;
   }  
-
 }
+  
+
