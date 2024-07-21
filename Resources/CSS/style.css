@@ -91,6 +91,11 @@ header .navbar a:hover {
 section {
   padding: 40px 0;
 }
+.summary {
+  padding: 20px 100px;
+  text-align: left;
+  margin: 20px 0;
+}
 .challenges {
 
   padding: 20px 100px;
@@ -254,6 +259,9 @@ max-height: 100%;
   }
   .skills-content {
     flex-direction: column;
+  }
+  .summary {
+    padding: 40px 20px 5px;
   }
   .container {
     flex: 50%;
